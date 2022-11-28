@@ -6952,7 +6952,7 @@ textarea.form-control-lg {
 }
 
 .mt-5 {
-  margin-top: 3rem !important;
+  margin-top: 2rem !important;
 }
 
 .mt-auto {
@@ -7061,11 +7061,11 @@ textarea.form-control-lg {
 }
 
 .p-4 {
-  padding: 1.5rem !important;
+  padding: 0rem !important;
 }
 
 .p-5 {
-  padding: 3rem !important;
+  padding: 0rem !important;
 }
 
 .px-0 {
@@ -7074,8 +7074,8 @@ textarea.form-control-lg {
 }
 
 .px-1 {
-  padding-right: 0.25rem !important;
-  padding-left: 0.25rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
 }
 
 .px-2 {
