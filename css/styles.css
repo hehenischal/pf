@@ -1,15 +1,4 @@
-@charset "UTF-8";
-/*!
-* Start Bootstrap - Freelancer v7.0.3 (https://startbootstrap.com/theme/freelancer)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v5.0.2 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -5507,6 +5496,13 @@ textarea.form-control-lg {
     border: 0;
     border-radius: 0;
   }
+  .container.d-flex.align-items-center.flex-column
+  {
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    size: 10ch;
+    align-items: top ;
+  }
   .modal-fullscreen-xxl-down .modal-header {
     border-radius: 0;
   }
@@ -6992,7 +6988,7 @@ textarea.form-control-lg {
 }
 
 .mb-1 {
-  margin-bottom: 0.25rem !important;
+  margin-bottom: 0rem !important;
 }
 
 .mb-2 {
@@ -7000,11 +6996,11 @@ textarea.form-control-lg {
 }
 
 .mb-3 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 0rem !important;
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 0rem !important;
 }
 
 .mb-5 {
@@ -11105,7 +11101,17 @@ transition: 1s ease;
   color: #fff;
   
 }
+.icons {
+  transition: 1.5s ease ;
+}
+.copyright:hover .icons {
 
+  height: 20%;
+  display: inline;
+  
+  font-size:20px;
+  color:#ffffff;
+} 
 .copyright {
   background-color: #000000;
   height: 30%;
@@ -11114,4 +11120,4 @@ transition: 1s ease;
 .copyright:hover {
   background-color: #ffffff;
   height: 20%;
-}
+} 
