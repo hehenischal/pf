@@ -10989,7 +10989,12 @@ html {
 .masthead-heading.text-uppercase.mb-0:hover{
   color: #ff0000 ;
   opacity: 0.9;
-
+}
+.masthead-heading.text-uppercase.mb-0:active{
+  transition: 1s;
+  color: #1abc9c ;
+  opacity: 0.9;
+  -webkit-filter: blur(9px);
 }
 .masthead {
   padding-top:0;
@@ -11125,3 +11130,7 @@ transition: 1s ease;
   background-color: pink;
   height: 10%;
 } 
+.copyright:active body {
+ color: red;
+  
+}
